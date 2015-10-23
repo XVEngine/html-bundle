@@ -1,6 +1,6 @@
 <?php
 
-namespace XVEngine\Bundle\ComponentsBundle\Component\Utils;
+namespace XVEngine\Bundle\HTMLBundle\Component\Utils;
 
 use XVEngine\Core\Component\AbstractComponent;
 
@@ -14,7 +14,7 @@ class HtmlComponent extends AbstractComponent {
     /*
      *
      */
-    public function init() {
+    public function initialize() {
         $this->setComponentName('utils.htmlComponent');
         $this->setParamByRef("items", $this->items);
     }

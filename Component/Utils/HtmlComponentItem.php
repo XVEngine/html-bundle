@@ -1,6 +1,6 @@
 <?php
 
-namespace XVEngine\Bundle\ComponentsBundle\Component\Utils;
+namespace XVEngine\Bundle\HTMLBundle\Component\Utils;
 
 use JsonSerializable;
 use XVEngine\Core\Component\AbstractComponent;
