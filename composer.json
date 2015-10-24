@@ -1,6 +1,7 @@
 {
     "name": "xvengine/html-bundle",
     "description": "HTML Bundle",
+	"type" : "xvengine-bundle",
     "authors": [
         {
             "name": "Krzysztof Bednarczyk",
