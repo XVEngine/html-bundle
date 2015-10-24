@@ -16,5 +16,6 @@
         "psr-0": {
             "XVEngine\\Bundle\\HTMLBundle" : ""
         }
-    }
+    },
+    "target-dir": "XVEngine/Bundle/HTMLBundle"
 }
