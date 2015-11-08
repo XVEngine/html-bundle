@@ -110,7 +110,18 @@
             self.trigger(eventName ? eventName : 'onClick');
             return false;
         });
-        
+
+        this.$element.on("mouseenter", "[xv-html-mouse-enter]", function(){
+            var eventName = $(this).attr("xv-html-mouse-enter");
+            self.trigger(eventName ? eventName : 'onMouseEnter');
+            return false;
+        });
+
+        this.$element.on("mouseleave", "[xv-html-mouse-leave]", function(){
+            var eventName = $(this).attr("xv-html-mouse-leave");
+            self.trigger(eventName ? eventName : 'onMouseLeave');
+            return false;
+        });
         return this;
     };
 
